@@ -1,0 +1,23 @@
+{
+  "name": "typescript-prereq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Eshan-Sharma/typescript-prereq.git",
+  "author": "eshan-sharma <43044334+Eshan-Sharma@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts",
+    "transfer": "ts-node ./transfer.ts",
+    "enroll": "ts-node ./enroll.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "@types/node": "^22.7.5",
+    "bs58": "^6.0.0",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
